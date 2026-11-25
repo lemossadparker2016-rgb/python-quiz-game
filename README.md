@@ -4,10 +4,10 @@ An interactive command-line quiz game built with Python. Answer multiple-choice 
 
 ## Features
 
-- Five multiple-choice questions.
+- Multiple-choice questions.
 - Automatic answer verification.
-- Score calculation and percentage display.
 - Instant feedback for correct and incorrect answers.
+- Score calculation and percentage display.
 - Input validation to prevent invalid choices.
 - Option to replay the game.
 - Simple and beginner-friendly interface.
@@ -19,7 +19,7 @@ An interactive command-line quiz game built with Python. Answer multiple-choice 
 
 ## How to Play
 
-1. Clone or download this repository.
+1. Download or clone this repository.
 2. Open a terminal in the project directory.
 3. Run the following command:
 
@@ -28,37 +28,24 @@ python main.py
 ```
 
 4. Read each question carefully.
-5. Enter your answer using A, B, C, or D.
-6. Check your final score.
+5. Enter A, B, C, or D to submit your answer.
+6. View your final score and percentage.
 7. Choose whether to play again.
 
-## Example Output
+## Example
 
 ```text
-========================================
-          PYTHON QUIZ GAME
-========================================
+PYTHON QUIZ GAME
 
 Question 1: What is the capital of France?
-  A. London
-  B. Paris
-  C. Madrid
-  D. Rome
+
+A. London
+B. Paris
+C. Madrid
+D. Rome
 
 Your answer (A/B/C/D): B
 Correct!
-
-========================================
-             QUIZ RESULTS
-========================================
-Your score: 5/5
-Your percentage: 100.0%
-Excellent! Perfect score!
-========================================
-
-Would you like to play again? (Y/N): N
-
-Thank you for playing. Goodbye!
 ```
 
 ## Project Structure
@@ -73,19 +60,14 @@ python-quiz-game/
 ## Technologies Used
 
 - Python 3
-- Python built-in functions and data structures.
-
-## Future Improvements
-
-- Add more questions.
-- Introduce different difficulty levels.
-- Create categories for different topics.
-- Save player scores and statistics.
+- Built-in Python functions and data structures.
 
 ## Author
+
+**Pierre Claver**
 
 Created as a beginner-friendly Python programming project.
 
 ## License
 
-This project is open-source and available for learning and educational purposes.
+No specific open-source license has been added to this repository yet.
